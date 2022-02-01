@@ -13,7 +13,7 @@ export const ArraySlice = createSlice({
          state.redingList.push(payload)
      },
      removeFromReadingList:(state,{payload})=>{
-        state.redingList=state.redingList.filter(book=>book!==payload)
+        state.redingList=state.redingList.filter(book=>book.id!==payload.id)
      }
 
  }   
