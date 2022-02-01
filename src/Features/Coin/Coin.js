@@ -8,7 +8,6 @@ const Coin = () => {
         <div>
             <br />
              <h4 style={{color:color}}>coin: {coin} </h4>
-
         </div>
     );
 };
